@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "node server.cjs"
+    "start": "npx y-websocket --port $PORT",
+    "postinstall": "sed -i 's/localhost/0.0.0.0/' node_modules/y-websocket/bin/server.js"
   },
   "dependencies": {
     "y-websocket": "^1.4.5",
