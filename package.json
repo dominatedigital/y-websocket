@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "node node_modules/y-websocket/bin/server.js --port $PORT"
+    "start": "y-websocket-server --port $PORT"
   },
   "dependencies": {
-    "y-websocket": "^3.0.0"
+    "y-websocket": "^3.0.0",
+    "y-websocket-server": "^1.0.2"
   },
   "engines": {
     "node": "18.x"
