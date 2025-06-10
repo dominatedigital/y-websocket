@@ -7,14 +7,12 @@
   "types": "./dist/src/y-websocket.d.ts",
   "type": "module",
   "sideEffects": false,
-  "scripts": {
-    "start": "y-websocket-server --port $PORT"
-  },
   "funding": {
     "type": "GitHub Sponsors ❤",
     "url": "https://github.com/sponsors/dmonad"
   },
   "scripts": {
+    "start": "y-websocket-server --port $PORT",
     "dist": "rm -rf dist && rollup -c && tsc",
     "lint": "standard && tsc",
     "test": "npm run lint",
