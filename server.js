@@ -1,4 +1,4 @@
-import { WebsocketServer } from 'y-websocket/bin/server.js';
+import { WebsocketServer } from 'y-websocket';
 
 const port = process.env.PORT || 1234;
 const wss = new WebsocketServer({ port });
