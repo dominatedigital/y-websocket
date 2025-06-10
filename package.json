@@ -1,11 +1,11 @@
 {
-    "name": "y-websocket-server",
-    "version": "1.0.0",
-    "type": "module",
-    "scripts": {
-      "start": "node server.js"
-    },
-    "dependencies": {
-      "y-websocket": "^3.0.0"
-    }
+  "name": "y-websocket-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "npx y-websocket --port $PORT"
+  },
+  "dependencies": {
+    "y-websocket": "^3.0.0"
   }
+}
