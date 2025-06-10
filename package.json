@@ -1,8 +1,9 @@
 {
     "name": "y-websocket-server",
     "version": "1.0.0",
+    "type": "module",
     "scripts": {
-      "start": "npx y-websocket --port $PORT"
+      "start": "node server.mjs"
     },
     "dependencies": {
       "y-websocket": "^3.0.0"
