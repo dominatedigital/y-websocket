@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "y-websocket-server --port $PORT"
+    "start": "npx y-websocket --port $PORT"
   },
   "dependencies": {
-    "y-websocket": "^3.0.0",
-    "y-websocket-server": "^1.0.2"
+    "y-websocket": "^3.0.0"
   },
   "engines": {
     "node": "18.x"
