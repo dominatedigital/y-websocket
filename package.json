@@ -8,8 +8,8 @@
   "type": "module",
   "sideEffects": false,
   "scripts": {
-  "start": "y-websocket-server --port $PORT"
-},
+    "start": "y-websocket-server --port $PORT"
+  },
   "funding": {
     "type": "GitHub Sponsors ❤",
     "url": "https://github.com/sponsors/dmonad"
